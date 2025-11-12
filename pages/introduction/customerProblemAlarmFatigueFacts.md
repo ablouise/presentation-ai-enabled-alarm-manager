@@ -56,16 +56,21 @@ class: text-center
 }
 .result-card {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  max-width: 600px;
+  width: 100%;
+  grid-column: span 3 / span 3;
   padding: 1.2rem 1rem;
   margin: 0 auto;
-  background: rgba(15, 23, 42, 0.45);
+  background: rgba(15, 23, 42, 0.18);
   color: var(--theme-info);
   border-color: var(--theme-primary);
   border-radius: 1.25rem;
   border: 1.5px solid rgba(255,255,255,0.18);
   backdrop-filter: blur(18px) saturate(180%);
   -webkit-backdrop-filter: blur(18px) saturate(180%);
+}
+.stats-headline {
+  margin-top: 2.5rem !important;
+  margin-bottom: 1.5rem !important;
 }
 .stats-headline h1 {
   font-size: 2.2rem;
@@ -105,8 +110,9 @@ class: text-center
   height: 1px;
   background: linear-gradient(90deg, transparent, var(--theme-primary) 60%, transparent);
   opacity: 0.7;
-  width: 80%;
-  margin: 1.5rem auto 1.5rem auto;
+  grid-column: span 3 / span 3;
+  width: 100%;
+  margin: 0 0 0 0;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
@@ -165,7 +171,8 @@ class: text-center
   <h1 class="font-bold leading-tight text-center">When everything is urgent,<br><span class="highlight">nothing is</span></h1>
 </div>
 
-<div class="grid grid-cols-3 gap-8 px-8 justify-center items-center" style="margin-bottom: 2rem;">
+
+<div class="grid grid-cols-3 gap-8 px-8 justify-center items-center" style="margin-bottom: 0.5rem;">
   <div v-click class="stat-card rounded-2xl text-center border border-theme-warning" style="border-top: 4px solid var(--theme-warning);">
     <div class="stat-icon">&#9888;</div>
     <div class="text-6xl font-bold mb-3">95%</div>
@@ -181,17 +188,14 @@ class: text-center
     <div class="text-6xl font-bold mb-3">$50K+</div>
     <div class="text-lg text-white/80 font-medium tracking-wide">annual cost</div>
   </div>
+<div class="divider-line"></div>
+
+  <div v-click="4" class="result-card rounded-2xl text-center border mx-auto" style="max-width: 700px; margin-bottom: 2rem; margin-top: 0;">
+    <h2 class="font-semibold mb-3">Result:</h2>
+    <p class="text-white/90 leading-relaxed">
+      Operators ignore <span class="font-semibold" style="color: var(--theme-error);">60% of alerts</span>, missing real threats
+    </p>
+  </div>
 </div>
 
 <div class="divider-line"></div>
-
-<div v-click="4" class="result-section mx-auto flex justify-center items-center">
-  <div class="w-full max-w-4xl">
-    <div class="result-card rounded-2xl text-center border mx-auto">
-      <h2 class="font-semibold mb-3">Result:</h2>
-      <p class="text-white/90 leading-relaxed">
-        Operators ignore <span class="font-semibold" style="color: var(--theme-error);">60% of alerts</span>, missing real threats
-      </p>
-    </div>
-  </div>
-</div>
