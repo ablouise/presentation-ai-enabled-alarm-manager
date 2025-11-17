@@ -15,5 +15,13 @@ src: ./customerProblemAlarmFatigueFacts.md
 ---
 
 ---
+src: ./letsRecap.md
+---
+
+---
+src: ./thesolution.md
+---
+
+---
 src: ./executiveSummary.md
 ---
