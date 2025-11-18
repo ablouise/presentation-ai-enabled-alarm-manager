@@ -65,7 +65,3 @@ src: ./thesolutionvideo.md
 ---
 src: ./thesolutioncomponents.md
 ---
-
----
-src: ./executiveSummary.md
----

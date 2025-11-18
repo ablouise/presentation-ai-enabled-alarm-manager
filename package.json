@@ -9,9 +9,10 @@
   },
   "dependencies": {
     "@iconify-json/fe": "^1.2.4",
-    "@slidev/cli": "^52.6.0",
+    "@slidev/cli": "^52.9.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
+    "@vue-flow/core": "^1.47.0",
     "seedrandom": "^3.0.5",
     "vue": "^3.5.22"
   }
