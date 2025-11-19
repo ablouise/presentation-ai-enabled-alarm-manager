@@ -3,16 +3,16 @@
     <div class="mermaid-diagram" ref="mermaidDiv"></div>
     <div class="logos-row">
       <div class="logo-item">
-        <img src="/icons/problem/bosch.png" alt="Genetec" />
-        <p>Genetec</p>
+        <img src="/icons/problem/bosch.png" alt="Bosch" />
+        <p>Bosch</p>
       </div>
       <div class="logo-item">
-        <img src="/public/assets/milestone-logo.png" alt="Milestone" />
-        <p>Milestone</p>
+        <img src="/icons/problem/cern.png" alt="CERN" />
+        <p>CERN</p>
       </div>
       <div class="logo-item">
-        <img src="/public/assets/arcules-logo.png" alt="Arcules" />
-        <p>Arcules</p>
+        <img src="/icons/problem/tivoli.png" alt="Tivoli" />
+        <p>Tivoli</p>
       </div>
       <!-- More logos -->
     </div>

@@ -35,6 +35,10 @@ src: ./pages/introduction/slides_introduction.md
 ---
 
 ---
+src: ./pages/the_rest/slides_the_rest.md
+--- 
+
+---
 src: ./pages/product_overview/slides_product_overview.md
 ---
 
