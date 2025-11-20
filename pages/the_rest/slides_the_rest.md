@@ -1,21 +1,9 @@
 ---
-src: ../the_rest/slide1.md
----
-
----
 src: ../the_rest/slide2.md
 ---
 
 ---
 src: ../the_rest/slide3.md
----
-
----
-src: ../the_rest/costCalculationAssumptions.md
----
-
----ß
-src: ../the_rest/slide4.md
 ---
 
 ---
